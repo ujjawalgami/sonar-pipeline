@@ -1,4 +1,4 @@
-node any {
+node ('maven') {
    stage('checkout tfrs-sample-sonar')
    git url: 'https://github.com/bcgov/tfrs-sonar-scanner.git'
 
