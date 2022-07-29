@@ -1,6 +1,6 @@
 node ('maven') {
    stage('checkout tfrs-sample-sonar')
-   git url: 'https://github.com/bcgov/tfrs-sonar-scanner.git'
+   git url: 'https://github.com/ujjawalgami/sonar-pipeline'
 
    stage('change to working dir')
    dir('tfrs-sample-project'){
